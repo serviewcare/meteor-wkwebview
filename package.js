@@ -15,7 +15,7 @@ Cordova.depends({
 //meteor add cordova:com.meteor.cordova-update@https://github.com/practicalmeteor/com.meteor.cordova-update/tarball/a7e98f27a26b727288da81dcfd8047eccb5f6036
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('1.2.0.2');
 
   api.use(['coffeescript', 'practicalmeteor:loglevel@1.2.0_1']);
 
