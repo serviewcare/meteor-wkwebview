@@ -1,6 +1,6 @@
 Package.describe({
   name: 'silvervue:wkwebview',
-  version: '0.1.3',
+  version: '0.1.4',
   summary: 'Use the significantly better and faster WKWebView in mobile apps on iOS 8+.',
   git: 'https://github.com/serviewcare/meteor-wkwebview/',
   documentation: 'README.md'
