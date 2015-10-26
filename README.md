@@ -16,13 +16,8 @@ meteor add silvervue:wkwebview
 
 # Loading images/resources from public will not work until you add a mobile-config.js file:
 
-// This is the relevant rule that will allow images/fonts access from your application
-App.accessRule('*');
 
-// These will set the orientation/and status bar to the same as the default for UIWebView
-App.setPreference('AllowInlineMediaPlayback', true);
-App.setPreference('Orientation', 'landscape');
-App.setPreference('StatusBarOverlaysWebView', true);
+# Fixed issue loading images in initial bundle load before autoupdate.
 
 ```
 
